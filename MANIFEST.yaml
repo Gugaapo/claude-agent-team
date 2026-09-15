@@ -1,0 +1,58 @@
+---
+# Claude Code agent team - manifest
+# Generated from the live ~/.claude/agents definitions.
+
+version: 2.0.0
+total_agents: 14
+active_agents: 14
+deprecated_agents: 0
+
+# Project-local agent sets are kept in a separate private repo: they embed client
+# codebases and standards, so they are deliberately not published here.
+project_local_agents:
+  location: .claude/agents/  (per project, not published)
+
+global_agents:
+  active:
+    - name: agent-manager
+      description: Use this agent when you need intelligent task routing to the most appropriate specialist agent in the Claude C
+      size_kb: 32
+    - name: data-pipeline-architect
+      description: Use this agent when working with data processing, analysis, or pipeline tasks. This includes data cleaning/tra
+      size_kb: 9
+    - name: dev-env-manager
+      description: Use this agent when you need to set up, configure, or troubleshoot development environments. This includes:\n\
+      size_kb: 8
+    - name: documentation-expert
+      description: Use this agent when you need to create, update, or maintain any form of project documentation. Covers README f
+      size_kb: 8
+    - name: git-operations-expert
+      description: Use this agent when you need assistance with complex Git operations and version control tasks. This includes:
+      size_kb: 10
+    - name: homelab-research-expert
+      description: Use this agent when the user needs guidance, recommendations, or information about homelab setups, NAS systems
+      size_kb: 7
+    - name: linux-sysadmin-expert
+      description: Use this agent PROACTIVELY for ANY Linux system administration, OS-level operations, server configuration, vir
+      size_kb: 9
+    - name: pc-hardware-advisor-br
+      description: Use this agent when the user asks about:\n- Hardware component pricing (GPUs, CPUs, motherboards, RAM, storage
+      size_kb: 6
+    - name: performance-monitor
+      description: Use this agent when you need to optimize application/system performance, set up monitoring infrastructure, ana
+      size_kb: 9
+    - name: prompt-architect
+      description: Use this agent when you need expert guidance on crafting, optimizing, or debugging prompts for AI models, espe
+      size_kb: 10
+    - name: requirements-analyst
+      description: Use this agent when you need to elicit, clarify, or document software requirements from stakeholders. Systemat
+      size_kb: 8
+    - name: research-assistant
+      description: Use this agent when the user requests research, investigation, or information gathering on any topic that requ
+      size_kb: 5
+    - name: security-auditor
+      description: Use this agent when conducting security audits, vulnerability assessments, or penetration testing activities. 
+      size_kb: 8
+    - name: software-architect
+      description: Use this agent PROACTIVELY when starting new projects from scratch, establishing professional development foun
+      size_kb: 11
